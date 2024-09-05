@@ -4,9 +4,9 @@ kind: Pipeline
 metadata:
   name: leidos
   labels:
-    app.kubernetes.io/version: "777"
+    app.kubernetes.io/version: "111"
   annotations:
-    tekton.dev/pipelines.minVersion: "777"
+    tekton.dev/pipelines.minVersion: "7"
     tekton.dev/tags: leidos
     tekton.dev/displayName: "leidos"
     tekton.dev/platforms: "linux/amd64"
